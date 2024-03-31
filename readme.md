@@ -10,3 +10,9 @@ docker build -t notes-app .
 ```bash
 docker run -e SPRING_PROFILES_ACTIVE=dev -p 8080:8080 notes-app
 ```
+
+## Push to dockerhub
+
+```bash
+docker tag notes-app devyam/notes-app:latest
+```
